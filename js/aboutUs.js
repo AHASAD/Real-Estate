@@ -29,6 +29,14 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+ // scroll start
+ window.addEventListener("scroll", function () {
+    var header = this.document.querySelector("header");
+    header.classList.toggle("sticky", window.scrollY > 0);
+  });
+
+  // scroll End
+
 // our Testimonial
 
 document.addEventListener('DOMContentLoaded', function() {

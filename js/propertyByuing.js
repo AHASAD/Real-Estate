@@ -93,3 +93,11 @@ if (budgetSlider) {
         // Add any custom slider logic here
     });
 }
+
+ // scroll start
+ window.addEventListener("scroll", function () {
+    var header = this.document.querySelector("header");
+    header.classList.toggle("sticky", window.scrollY > 0);
+  });
+
+  // scroll End

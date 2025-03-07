@@ -101,4 +101,12 @@ function viewMore() {
 
 function closeModal(button) {
     button.closest('div').parentElement.remove();
-}
+} // scroll start
+window.addEventListener("scroll", function () {
+  var header = this.document.querySelector("header");
+  header.classList.toggle("sticky", window.scrollY > 0);
+});
+
+// scroll End
+
+

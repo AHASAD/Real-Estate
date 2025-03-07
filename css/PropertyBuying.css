@@ -140,6 +140,13 @@ body {
     transition: 0.3s;
 }
 
+/* scroll Section start */
+header.sticky {
+    padding: 5px 100px;
+     background: var(--dark);
+}
+/* scroll Section End */
+
 /* Hero Section */
 .hero {
     width: 1600px;

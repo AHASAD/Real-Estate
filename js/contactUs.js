@@ -22,6 +22,14 @@ document.addEventListener("DOMContentLoaded", () => {
     // For example, form validation for the "Send Us A Message" section
   })
 
+   // scroll start
+   window.addEventListener("scroll", function () {
+    var header = this.document.querySelector("header");
+    header.classList.toggle("sticky", window.scrollY > 0);
+  });
+
+  // scroll End
+
 
 
 //   Send a message

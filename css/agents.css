@@ -31,6 +31,16 @@ body {
     padding-right: 85px;
 }
 
+/* scroll Section start */
+header.sticky {
+    padding: 5px 100px;
+     background: var(--dark);
+
+}
+
+
+/* scroll Section End */
+
 /* Header Styles */
 .header {
     display: flex;
